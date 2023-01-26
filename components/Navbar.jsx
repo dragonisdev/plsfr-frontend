@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import { Spin as Hamburger } from "hamburger-react";
 import React from 'react'
+import logo from "../src/assets/logo.png"
 
 const Nav = styled.nav`
   position: fixed;
@@ -112,7 +113,7 @@ function Navbar() {
         {/* DESKTOP NAV */}
         <div className="hidden lg:flex justify-between w-full items-center">
           <div className="text-white text-2xl font-main">
-            <h1>LOGO</h1>
+            <img src={logo} href="/" alt="logo" className="object-cover h-14 w-88"/>
           </div>
           <ul className={`  flex justify-between space-x-8 items-center`} >
             <Navlink>

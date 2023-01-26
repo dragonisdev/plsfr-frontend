@@ -1,8 +1,14 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
+import "../components/spinner.css" 
 
 function PreLoader() {
+  
+  
   return (
-    <div>PreLoader</div>
+    <div className="spinner-container">
+      <div className="loading-spinner">
+      </div>
+    </div>
   )
 }
 

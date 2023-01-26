@@ -2,10 +2,15 @@ import React from 'react'
 import Spline from "@splinetool/react-spline";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import bitcoin from "../src/assets/bitcoin.png"
+import ClipLoader from "react-spinners/ClipLoader";
+import PreLoader from '../components/PreLoader';
+import Rows from '../components/Rows';
 
 
+
+import { fetchHeroes } from '../utils/utils';
 
 const FormEngine = styled.form`
   
@@ -86,9 +91,10 @@ const GradientText = styled.span`
   
 `;
 
+
 const Section = styled.section`
   max-width: 1400px;
-  display: flex;
+ 
   justify-content: space-between;
   flex-wrap: nowrap;
 
@@ -102,23 +108,56 @@ function Search() {
     const [keyword, setKeyword] = useState('')
     const [isPending, setIsPending] = useState(false)
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const searchWord = {keyword}
+   
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        let searchWord = {keyword}
+
+        
+
+        if (searchWord ==="") return
+        
+        try {
+          let heroes = await fetchHeroes(searchWord)
+          
+          
+        } catch(err) {
+          return console.error(err)
+        }
+
+          
+        
+        /*
+        
         setIsPending(true)
 
         fetch('', {method:'POST', headers: {"Content-Type": "application/json"}, 
         body: JSON.stringify(searchWord)
       }).then(() => {
         console.log('searching')
-        setIsPending(false)
-      }
-      )
+        setIsPending(false) 
+      }) */
     }
+
+      const [loading, setLoading] = useState(false)
+
+        useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+          setLoading(false)
+        }, 1000)
+      }, [])
   return (
     <Container>
-      <Section className="bg-main">
+      {
+        loading ?
+
+        <PreLoader/>
+
+        :
+
+        <Section className="bg-main">
         <div className='text-center '>
           
           <Title className="font-main   font-[700] text-white max-w-[18ch] text-center">Maximize Your Playlist <GradientText>Potential</GradientText></Title>
@@ -144,7 +183,16 @@ function Search() {
 
           </div>
         </div>
+
+
+        <Rows/>
       </Section>
+      }
+
+      
+        
+      
+      
     </Container>
     
   )

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687.23 3397.85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-3 {
+        font-family: RacingSansOne-Regular, 'RacingSansOne Regular';
+      }
+
+      .cls-3, .cls-5 {
+        font-size: 77.23px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-5 {
+        fill: #dd6ba9;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-10 {
+        stroke: #fff;
+      }
+
+      .cls-10, .cls-11 {
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        fill: none;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: .03em;
+      }
+
+      .cls-11 {
+        stroke: #d6cfe7;
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-21 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-22 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-23 {
+        fill: #0f0d11;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-12" cx="475.95" cy="175.23" r="129.78"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="289.23" y1="273.19" x2="643.14" y2="273.19" gradientUnits="userSpaceOnUse">
+      <stop offset=".38" stop-color="#424ca0"/>
+      <stop offset=".65" stop-color="#6061ab"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <polygon class="cls-12" points="643.11 0 643.11 345.49 297.62 345.49 297.62 208.76 356.7 208.76 356.7 136.72 297.62 136.72 297.62 0 643.11 0"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <circle class="cls-12" cx="357.23" cy="2005.3" r="129.78"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="170.51" y1="2103.26" x2="524.43" y2="2103.26" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-3">
+      <circle class="cls-12" cx="357.23" cy="3236.74" r="129.78"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <circle class="cls-12" cx="357.23" cy="2607.9" r="129.78"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0" y1="2674.98" x2="582.79" y2="2674.98" gradientUnits="userSpaceOnUse">
+      <stop offset=".45" stop-color="#424ca0"/>
+      <stop offset=".64" stop-color="#6061ab"/>
+    </linearGradient>
+    <clipPath id="clippath-5">
+      <circle class="cls-12" cx="475.95" cy="774.49" r="129.78"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <polygon class="cls-12" points="643.11 599.26 643.11 944.75 297.62 944.75 297.62 808.02 356.7 808.02 356.7 735.98 297.62 735.98 297.62 599.26 643.11 599.26"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <circle class="cls-12" cx="357.23" cy="1384.35" r="129.78"/>
+    </clipPath>
+  </defs>
+  <text class="cls-5" transform="translate(69.34 194.75) scale(.98 1)"><tspan x="0" y="0">Playlist Surfer</tspan></text>
+  <g class="cls-15">
+    <circle class="cls-12" cx="475.95" cy="175.23" r="129.78"/>
+    <path class="cls-22" d="m292.53,258.79c41,1.18,65.54,18.9,111.91-6.44,66.99-36.61,116.46-45.37,149.59-26.85,0,0-35.36,5.18-37.21,31.46-1.85,26.29,52.23,43.31,126.32,6.73l-4.69,66.6-349.22-24.6,3.3-46.9Z"/>
+  </g>
+  <g class="cls-8">
+    <circle class="cls-11" cx="475.31" cy="175.13" r="149.06"/>
+  </g>
+  <rect class="cls-23" x="25.97" y="1720.05" width="661.26" height="554.82"/>
+  <g>
+    <g class="cls-4">
+      <circle class="cls-12" cx="357.23" cy="2005.3" r="129.78"/>
+      <path class="cls-1" d="m173.82,2088.85c41,1.18,65.54,18.9,111.91-6.44,66.99-36.61,116.46-45.37,149.59-26.85,0,0-35.36,5.18-37.21,31.46-1.85,26.29,52.23,43.31,126.32,6.73l-4.69,66.6-349.22-24.6,3.3-46.9Z"/>
+    </g>
+    <circle class="cls-11" cx="356.6" cy="2005.2" r="149.06"/>
+  </g>
+  <g>
+    <g class="cls-16">
+      <circle class="cls-12" cx="357.23" cy="3236.74" r="129.78"/>
+      <path class="cls-2" d="m5.44,3280.1c67.51,1.95,107.93,31.12,184.28-10.61,110.31-60.29,191.78-74.71,246.33-44.21,0,0-58.23,8.53-61.27,51.81-3.05,43.29,86.01,71.31,208,11.09l-7.73,109.67L0,3357.34l5.44-77.23Z"/>
+    </g>
+    <circle class="cls-10" cx="356.6" cy="3236.63" r="149.06"/>
+  </g>
+  <g>
+    <g class="cls-9">
+      <circle class="cls-12" cx="357.23" cy="2607.9" r="129.78"/>
+      <path class="cls-19" d="m5.44,2651.26c67.51,1.95,107.93,31.12,184.28-10.61,110.31-60.29,191.78-74.71,246.33-44.21,0,0-58.23,8.53-61.27,51.81-3.05,43.29,86.01,71.31,208,11.09l-7.73,109.67L0,2728.5l5.44-77.23Z"/>
+    </g>
+    <circle class="cls-11" cx="356.6" cy="2607.79" r="149.06"/>
+  </g>
+  <rect class="cls-23" x="25.97" y="489.35" width="661.26" height="554.82"/>
+  <text class="cls-3" transform="translate(69.34 794.01) scale(1.02 1)"><tspan class="cls-18" x="0" y="0">P</tspan><tspan class="cls-17" x="40.7" y="0">l</tspan><tspan class="cls-13" x="58.93" y="0">a</tspan><tspan x="95.54" y="0">ylist Su</tspan><tspan class="cls-14" x="321.37" y="0">r</tspan><tspan class="cls-21" x="348.94" y="0">f</tspan><tspan x="370.49" y="0">er</tspan></text>
+  <g class="cls-20">
+    <circle class="cls-12" cx="475.95" cy="774.49" r="129.78"/>
+    <path class="cls-2" d="m292.53,858.04c41,1.18,65.54,18.9,111.91-6.44,66.99-36.61,116.46-45.37,149.59-26.85,0,0-35.36,5.18-37.21,31.46-1.85,26.29,52.23,43.31,126.32,6.73l-4.69,66.6-349.22-24.6,3.3-46.9Z"/>
+  </g>
+  <g class="cls-6">
+    <circle class="cls-10" cx="475.31" cy="774.39" r="149.06"/>
+  </g>
+  <rect class="cls-23" x="25.97" y="1099.1" width="661.26" height="554.82"/>
+  <g>
+    <g class="cls-7">
+      <circle class="cls-12" cx="357.23" cy="1384.35" r="129.78"/>
+      <path class="cls-2" d="m173.82,1467.9c41,1.18,65.54,18.9,111.91-6.44,66.99-36.61,116.46-45.37,149.59-26.85,0,0-35.36,5.18-37.21,31.46-1.85,26.29,52.23,43.31,126.32,6.73l-4.69,66.6-349.22-24.6,3.3-46.9Z"/>
+    </g>
+    <circle class="cls-10" cx="356.6" cy="1384.25" r="149.06"/>
+  </g>
+</svg>
