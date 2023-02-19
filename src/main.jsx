@@ -9,7 +9,7 @@ import Navbar from '../components/Navbar'
 import Search from '../pages/Search'
 
 import styled from "styled-components";
-import Featured from '../pages/Featured'
+import Contact from '../pages/Contact'
 import Blog from '../pages/Blog'
 import FAQ from '../pages/FAQ'
 
@@ -19,9 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/Search' element={<Search/>}></Route>
-        <Route path='/Featured' element={<Featured/>}></Route>
-        <Route path='/Blog' element={<Blog/>}></Route>
-        <Route path='/FAQ' element={<FAQ/>}></Route>
+        <Route path='/Contact' element={<Contact/>}></Route>
       </Routes>
       
   </BrowserRouter>,

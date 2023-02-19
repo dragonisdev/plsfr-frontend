@@ -91,14 +91,16 @@ function Navbar() {
               <Link to="/">Home</Link>
             </MobileNavlink>
             <MobileNavlink className="lg:hidden">
-              <Link to="/Featured">Featured</Link>
+              <Link to="/FAQ">FAQ</Link>
             </MobileNavlink>
+            
             <MobileNavlink className="lg:hidden">
               <Link to="/Blog">Blog</Link>
             </MobileNavlink>
             <MobileNavlink className="lg:hidden">
-              <Link to="/FAQ">FAQ</Link>
+              <Link to="/Contact">Contact</Link>
             </MobileNavlink>
+            
             <Link to="/Search">
               <button
                 type="button"
@@ -120,13 +122,14 @@ function Navbar() {
               <Link to="/">Home</Link>
             </Navlink>
             <Navlink>
-              <Link to="/Featured">Featured</Link>
+              <Link to="/FAQ">FAQ</Link>
             </Navlink>
+            
             <Navlink>
               <Link to="/Blog">Blog</Link>
             </Navlink>
             <Navlink>
-              <Link to="/FAQ">FAQ</Link>
+              <Link to="/Contact">Contact</Link>
             </Navlink>
             <Navlink>
               <Link to="/Search">

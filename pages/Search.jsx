@@ -6,9 +6,9 @@ import { useState, useEffect } from 'react'
 import bitcoin from "../src/assets/bitcoin.png"
 import ClipLoader from "react-spinners/ClipLoader";
 import PreLoader from '../components/PreLoader';
-import Rows from '../components/Rows';
 
 
+import axios from 'axios'
 
 import { fetchHeroes } from '../utils/utils';
 
@@ -103,15 +103,48 @@ const Section = styled.section`
 
 `;
 
+const BASEURL = "https://xrcfxbua1g.execute-api.us-east-2.amazonaws.com/prod/"
+
+const getReqId = (searchWord) => {
+  return axios ({
+    method: "put",
+    url: BASEURL + "/mock/submit",
+    headers: {'x-api-key': import.meta.env.REACT_APP_API_KEY},
+    data: {
+      input: searchWord,
+    }
+  })
+  .then((res) => {
+    console.log(res.data)
+  })
+  .catch((err) => {
+    console.error(err)
+  })
+}
+
+const getPlaylists = (id) => {
+  return axios ({
+    method: "get",
+    url: `${BASEURL}/mock/pull/?reqId=${id}`,
+    data: ""
+  })
+  .then((res) => {
+    console.log(res.data)
+  })
+  .catch((err) => {
+    console.error(err)
+  })
+}
+
+
 
 function Search() {
     const [keyword, setKeyword] = useState('')
     const [isPending, setIsPending] = useState(false)
 
-   
-
     const handleSubmit = async (e) => {
         e.preventDefault();
+
         let searchWord = {keyword}
 
         
@@ -119,8 +152,8 @@ function Search() {
         if (searchWord ==="") return
         
         try {
-          let heroes = await fetchHeroes(searchWord)
-          
+          let reqId = await getReqId(searchWord)
+        
           
         } catch(err) {
           return console.error(err)
@@ -183,15 +216,9 @@ function Search() {
 
           </div>
         </div>
-
-
-        <Rows/>
       </Section>
       }
-
-      
-        
-      
+  
       
     </Container>
     

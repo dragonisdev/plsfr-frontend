@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import React from "react";
 import { useState } from 'react'
+import Use from "../src/assets/Use.png"
+import banner from "../src/assets/banner.gif"
 
 const Container = styled.div`
   width: 100%;
@@ -11,6 +13,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 `;
 
 const Title = styled.h1`
@@ -34,15 +37,27 @@ const GradientText = styled.span`
   
 `;
 
+
+const Section2 = styled.section`
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  
+  
+`
+
+
 const Section = styled.section`
   max-width: 1400px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
   width: 100%;
-  min-height: calc(100vh - 120px);
+  
   padding-top: 7rem;
-
+  
   overflow: hidden;
   .spline {
     max-width: 625px;
@@ -127,7 +142,7 @@ function HeroSection() {
     <Container>
       <Section className="bg-main">
       <div className="flex flex-col space-y-6 justify-center max-h-[500px] px-12 ">
-        <Title className="font-main text-5xl md:text-7xl font-[700] text-white max-w-[18ch]">
+        <Title className="font-main text-5xl md:text-6xl font-[700] text-white max-w-[18ch]">
           <GradientText>Streamline</GradientText> Your Playlist Discovery With
           AI
         </Title>
@@ -159,7 +174,14 @@ function HeroSection() {
           scene="https://prod.spline.design/ZbTUZ-DriUByAi6A/scene.splinecode"
         />
       </div>
+      
+      
     </Section>
+    
+    
+   
+    
+    
     </Container>
   );
 }

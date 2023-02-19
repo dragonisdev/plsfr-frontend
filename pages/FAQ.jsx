@@ -2,7 +2,13 @@ import React from 'react'
 
 function FAQ() {
   return (
-    <div>FAQ</div>
+    <div>FAQ
+      <div>AA</div>
+      
+    </div>
+
+
+    
   )
 }
 
